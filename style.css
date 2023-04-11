@@ -10,46 +10,64 @@ background-color: black;
 
 
 header {
+    height: 50px;
+    width: 100%;
+    border: black solid 2px;
+    border-top: none;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.style-header {
+    height: inherit;
+    width: inherit;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    height: 60px;
-    width: 100%;
-    border: rgb(75, 83, 46) solid 2px;
-    border-radius: 0px 0px 15px 15px;
-    border-top: none;
-    background: url(https://klike.net/uploads/posts/2022-12/1671340951_7-19.jpg) no-repeat center;
-    background-size: cover;
-}
-
-.hat {
-    display: flex;
-    margin-left: 50px;
-    gap: 100px;
-    color: white;
-    font-size: 35px;
+    gap: 150px;
+    color: black;
+    font-size: 30px;
     font-weight: 400;
     font-family: 'Times New Roman', Times, serif;
 }
 
-.hat span:hover {
+
+
+.style-header :nth-child(1) {
+    margin-left: 50px;
+}
+
+.style-header :hover:nth-child(1) {
     color: yellow;
-    transform: scale(1.1);
+    transform: scale(1.2);
     cursor: pointer;
 }
   
-  .hat span:hover:nth-child(2) {
+.style-header :hover:nth-child(2) {
     color: yellow;
-    transform: scale(1.1);
+    transform: scale(1.2);
     cursor: pointer;
 }
   
-  .hat span:hover:nth-child(3) {
-    transform: scale(1.1);
+.style-header :hover:nth-child(3) {
+    transform: scale(1.2);
     color: yellow;
     cursor: pointer;
 }
 
+
+
+
+
+
+
+.par {
+    background-image: url(https://patentimages.storage.googleapis.com/f7/38/d6/1907479139819a/imgf000018_0001.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+}
 
 
 #panel {
@@ -58,7 +76,7 @@ top: 0;
 right: -250px; 
 width: 250px;
 height: 100%;
-background-color: #f1f1f1;
+background-color: red;
 padding: 20px;
 transition: all 0.5s ease-out; 
 }
@@ -70,16 +88,17 @@ transition: all 0.5s ease-out;
 
 
 
+  
 
 
 
-main {
+/*main {
     background-image: url(https://i.pinimg.com/originals/c1/ae/a1/c1aea1fb759e65eb7095c4a278300786.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-
+*/
 
 
 
